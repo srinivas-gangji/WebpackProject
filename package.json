@@ -7,6 +7,7 @@
     "clean": "rimraf dist",
     "build": "NODE_ENV=production npm run clean && webpack -p",
     "serve": "webpack-dev-server",
+    "start": "NODE_ENV=production node server.js",
     "deploy:github": "git subtree push --prefix dist ghdeploy gh-pages",
     "deploy:surge": "npm run build && cp CNAME dist/ && surge -p dist"
   },

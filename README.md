@@ -16,3 +16,8 @@ npm install
 Deployed to Surge
 srini-demo-one.surge.sh
 ```
+
+```
+Github location
+https://srinivas-gangji.github.io/WebpackSampleDeploy
+```
